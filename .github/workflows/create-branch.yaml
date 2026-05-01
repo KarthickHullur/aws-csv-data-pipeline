@@ -1,4 +1,4 @@
-name: Auto Create Branch on Issue Assignment
+name: Auto Create Branch
 run-name: Create Feature Branch by ${{ github.actor }} on ${{ github.ref_name }}
 
 on:
@@ -19,4 +19,4 @@ jobs:
           title-length: 25
           github-token: ${{ secrets.GITHUB_TOKEN }}
           use-project-prefix: 'false'
-          branch-prefix: 'SBTF'
+          branch-prefix: 'SBAWSTF'
